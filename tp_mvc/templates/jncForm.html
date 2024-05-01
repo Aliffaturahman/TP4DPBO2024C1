@@ -1,0 +1,58 @@
+<!-- 
+    Saya Alif Faturahman Firdaus (2107377) mengerjakan Tugas Praktikum 4 dalam 
+    mata kuliah DPBO untuk keberkahan-Nya maka saya tidak melakukan kecurangan 
+    seperti yang telah dispesifikasikan. Aamiin. 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CRUD</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.php">Bolip's MVC CRUD</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link DATA_PAGE_1" aria-current="page" href="index.php">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link DATA_PAGE_2" aria-current="page" href="job.php">Job</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link DATA_PAGE_3" aria-current="page" href="company.php">Company</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <div class="col-lg-6 m-auto">
+ 
+    <form method="post">
+
+        <br><br>
+        <div class="card">
+
+            <div class="card-header bg-dark">
+                <h1 class="text-white text-center"> DATA_TITLE DATA_TABLE </h1>
+            </div><br>
+            <label>Name :</label>
+            <input type="text" name="name" value="DATA_NAME" class="form-control" placeholder="Input name here"
+                required> <br>
+            <button class="btn btn-primary" type="submit" name="FORM"> Submit </button><br>
+            <a class="btn btn-danger" type="submit" name="cancel" href="job.php"> Cancel </a><br>
+
+        </div>
+    </form>
+ </div>
+</body>
+</html>
